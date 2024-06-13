@@ -5,7 +5,7 @@
 
 ### 1.2 Transformer模型
 Transformer模型最初是为自然语言处理任务设计的，但近年来在图像分类任务中也展现出了强大的性能。我们实现了一个基于Vision Transformer（ViT）的模型，它将图像分割成一系列小块（patches），并将这些小块视为序列输入到Transformer编码器中进行处理。通过自注意力机制，Transformer模型能够捕获图像中的全局依赖关系。
-
+- 模型权值：https://huggingface.co/google-bert/bert-base-uncased
 ## 2. 数据集介绍
 CIFAR-100是一个包含100个类别、每个类别600张32x32彩色图像的数据集。这些图像被分为50000张训练图像和10000张测试图像。CIFAR-100数据集具有较大的类别数和较复杂的图像内容，为图像分类任务提供了很好的挑战。
 
